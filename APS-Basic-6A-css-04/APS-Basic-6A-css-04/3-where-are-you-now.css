@@ -1,0 +1,49 @@
+/* mobile first responsive design */
+
+body {
+  font-family: "fira code";
+}
+
+.box {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+.mobile {
+  background-color: orangered;
+}
+.tablet {
+  background-color: deepskyblue;
+  display: none;
+}
+.desktop {
+  background-color: olivedrab;
+  display: none;
+}
+
+/* responsive */
+@media (min-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+}

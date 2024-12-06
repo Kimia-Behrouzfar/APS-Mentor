@@ -1,0 +1,88 @@
+body {
+  min-height: 2000px;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+/* position default = static */
+/* position => relative */
+.box-1 {
+  background-color: orange;
+  position: relative;
+  z-index: 999;
+}
+.box-2 {
+  background-color: orangered;
+  position: relative;
+  top: -250px;
+  left: 125px;
+  /* z-index: -1; */
+}
+.box-3 {
+  background-color: teal;
+  position: relative;
+  left: 0;
+  top: -500px;
+  left: 500px;
+  z-index: 9999;
+}
+
+/* ************************ */
+/* position fixed, absolute */
+/* .box-1 {
+  background-color: orange;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 500px;
+}
+.close-box {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-top-left-radius: 8px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  cursor: pointer;
+}
+
+.box-2 {
+  background-color: orangered;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.box-3 {
+  background-color: teal;
+  width: 500px;
+  height: 50px;
+  position: fixed;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+/* ************************** */
+/* position sticky */
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: deeppink;
+  margin-bottom: 1rem;
+}
+.navbar {
+  width: 100%;
+  height: 150px;
+  background-color: deepskyblue;
+
+  position: sticky;
+  top: 10px;
+} */
